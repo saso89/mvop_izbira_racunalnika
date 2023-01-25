@@ -1,0 +1,5236 @@
+<MODEL>
+  <SCALE>
+    <NAME>Nakup televizorja</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Slab nakup</NAME>
+      <DESCRIPTION>Uporabnik ne bo zadovoljen z nakupom</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Dober nakup</NAME>
+      <DESCRIPTION>Uporabnik bo zadovoljen z nakupom</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Odlièen nakup</NAME>
+      <DESCRIPTION>Uporabnik bo zelo zadovoljen z nakupom</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Tehnicne lastnosti</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Manj zadovoljive</NAME>
+      <DESCRIPTION>Tehniène lastnosti nam manj ustrezajo</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Zadovoljive</NAME>
+      <DESCRIPTION>Tehniène lastnosti nam ustrezajo</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Zelo zadovoljive</NAME>
+      <DESCRIPTION>Tehniène lastnosti nam zelo ustrezajo</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Zunanji parametri</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Slab</NAME>
+      <DESCRIPTION>Slabši zunanji parametri</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Dober</NAME>
+      <DESCRIPTION>Zadovoljivi zunanji parametri</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Odlièen</NAME>
+      <DESCRIPTION>Zelo zadovoljivi zunanji parametri</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Diagonala</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Manjši zaslon</NAME>
+      <DESCRIPTION>Diagonala zaslona pod 140 cm</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Srednji zaslon</NAME>
+      <DESCRIPTION>Diagonala zaslona med 140 in 170 cm</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Velik zaslon</NAME>
+      <DESCRIPTION>Diagonala zaslona nad 170 cm</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Postavitev televizorja</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Slaba</NAME>
+      <DESCRIPTION>Brez možnosti stenske postavitve in težji televizor</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Dobra</NAME>
+      <DESCRIPTION>Samo stenska možnost postavitve in srednja teža</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Odlièna</NAME>
+      <DESCRIPTION>Lahek televizor in obe možnosti postavitve</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Polozaj televizorja</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Namizni</NAME>
+      <DESCRIPTION>Postavitev na omarici</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Stenski</NAME>
+      <DESCRIPTION>Montaža na steno</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Namizni in stenski</NAME>
+      <DESCRIPTION>Obe možnosti postavitve</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Teza</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Višja teža</NAME>
+      <DESCRIPTION>Nad 25 kg</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Srednja teža</NAME>
+      <DESCRIPTION>15 do 25 kg</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Nižja teža</NAME>
+      <DESCRIPTION>Pod 15 kg</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Zaslon</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Manj kvaliteten zaslon</NAME>
+      <DESCRIPTION>Karakteristike zaslona so slabše</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Kvaliteten zaslon</NAME>
+      <DESCRIPTION>Karakteristike zaslona so solidne</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Zelo kvaliteten zaslon</NAME>
+      <DESCRIPTION>Karakteristike zaslona so odliène</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Locljivost</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Nižja loèljivost</NAME>
+      <DESCRIPTION>1920x1080 in manj</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Srednja loèljivost</NAME>
+      <DESCRIPTION>Med 1920x1080 in 2560x1600</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Visoka loèljivost</NAME>
+      <DESCRIPTION>Nad 2560x1600</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Vrsta zaslona</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Slaba izbira</NAME>
+      <DESCRIPTION>Glede na subjektivno oceno manj primerna izbira (LED)</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Srednja izbira</NAME>
+      <DESCRIPTION>Glede na subjektivno oceno primerna izbira (QLED)</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Odlièna izbira</NAME>
+      <DESCRIPTION>Glede na subjektivno oceno zelo primerna izbira (OLED)</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Frekvenca slike</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Do 50 Hz</NAME>
+      <DESCRIPTION>Poèasnejše osveževanje slike</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Med 50 in 80 Hz</NAME>
+      <DESCRIPTION>Zmerna frekvenca slike</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Nad 80 Hz</NAME>
+      <DESCRIPTION>Hitro osveževanje slike</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Programska oprema</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Manj uporabno</NAME>
+      <DESCRIPTION>Programska oprema ni po naših željah</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Uporabno</NAME>
+      <DESCRIPTION>Programska oprema je delno po naših željah</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Zelo uporabno</NAME>
+      <DESCRIPTION>Programska oprema je povsem po naših željah</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Operacijski sistem</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Manj primeren</NAME>
+      <DESCRIPTION>Operacijski sistem, ki si ga ne želimo in bo primeren za našo uporabo</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Primeren</NAME>
+      <DESCRIPTION>Operacijski sistem bo primeren za našo uporabo</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Zelo primeren</NAME>
+      <DESCRIPTION>Operacijski sistem, ki si ga želimo in bo primeren za našo uporabo</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Aplikacije</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Do 3 aplikacije</NAME>
+      <DESCRIPTION>Malo uporabnih aplikacij</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Med 3 in 5 aplikacijami</NAME>
+      <DESCRIPTION>Veliko aplikacij, nekaj med njimi je neuporabnih</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Veè kot 5 aplikacij</NAME>
+      <DESCRIPTION>Veliko uporabnih aplikacij</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Ponudnik</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Slab</NAME>
+      <DESCRIPTION>Slabe izkušnje s proizvajalcem</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Dober</NAME>
+      <DESCRIPTION>Zadovoljive izkušnje s proizvajalcem</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Odlièen</NAME>
+      <DESCRIPTION>Odliène izkušnje s proizvajalcem</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Izkusnja s proizvajalcem</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>1</NAME>
+      <DESCRIPTION>Izkušnja s proizvajalcem je bila v preteklosti slaba ali je ni bilo</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>2</NAME>
+      <DESCRIPTION>Izkušnja s proizvajalcem je bila v preteklosti slabša</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>3</NAME>
+      <DESCRIPTION>Izkušnja s proizvajalcem je bila v preteklosti dobra</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>4</NAME>
+      <DESCRIPTION>Izkušnja s proizvajalcem je bila v preteklosti boljša</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>5</NAME>
+      <DESCRIPTION>Izkušnja s proizvajalcem je bila v preteklosti odlièna</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Garancija</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Kratek garancijski rok</NAME>
+      <DESCRIPTION>2 leti garancije</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Srednji garancijski rok</NAME>
+      <DESCRIPTION>3 leta garancije</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Dolg garancijski rok</NAME>
+      <DESCRIPTION>4 leta garancije</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Zelo dolg garancijski rok</NAME>
+      <DESCRIPTION>5 let garancije</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Cena</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>Visoka cena</NAME>
+      <DESCRIPTION>Ponudba znaša veè kot 1200 €</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Srednja cena</NAME>
+      <DESCRIPTION>Ponudba znaša med 800 in 1200 €</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>Nizka cena</NAME>
+      <DESCRIPTION>Pounudba znaša manj kot 800 €</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Energijski razred</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>G</NAME>
+      <DESCRIPTION>Zelo nizek energijski razred</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>F</NAME>
+      <DESCRIPTION>Nizek energijski razred</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>E</NAME>
+      <DESCRIPTION>Srednji energijski razred</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>D</NAME>
+      <DESCRIPTION>Srednji energijski razred</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>C</NAME>
+      <DESCRIPTION>Srednji energijski razred</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>B</NAME>
+      <DESCRIPTION>Varèen energijski razred</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>A</NAME>
+      <DESCRIPTION>Zelo varèen energijski razred</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Spletne ocene</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>1</NAME>
+      <DESCRIPTION>Uporabnik ni bil zadovoljen z izdelkom</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>2</NAME>
+      <DESCRIPTION>Uporabnik je bil manj zadovoljen z izdelkom</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>3</NAME>
+      <DESCRIPTION>Uporabnik je bil delno zadovoljen z izdelkom</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>4</NAME>
+      <DESCRIPTION>Uporabnik je bil zadovoljen z izdelkom</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>5</NAME>
+      <DESCRIPTION>Uporabnik je bil zelo zadovoljen z izdelkom</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Mimovrste</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>1</NAME>
+      <DESCRIPTION>Uporabnik ni bil zadovoljen z nakupom</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>2</NAME>
+      <DESCRIPTION>Uporabnik je bil manj zadovoljen z nakupom</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>3</NAME>
+      <DESCRIPTION>Uporabnik je bil delno zadovoljen za nakupom</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>4</NAME>
+      <DESCRIPTION>Uporabnik je bil zadovoljen z nakupom</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>5</NAME>
+      <DESCRIPTION>Uporabnik je bil zelo zadovoljen z nakupom</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <SCALE>
+    <NAME>Amazon</NAME>
+    <ORDERED>YES</ORDERED>
+    <ORDER>ASC</ORDER>
+    <SCALEVALUE>
+      <NAME>1</NAME>
+      <DESCRIPTION>Uporabnik ni bil zadovoljen z nakupom</DESCRIPTION>
+      <GROUP>BAD</GROUP>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>2</NAME>
+      <DESCRIPTION>Uporabnik je bil manj zadovoljen z nakupom</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>3</NAME>
+      <DESCRIPTION>Uporabnik je bil delno zadovoljen z nakupom</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>4</NAME>
+      <DESCRIPTION>Uporabnik je bil zadovoljen z nakupom</DESCRIPTION>
+    </SCALEVALUE>
+    <SCALEVALUE>
+      <NAME>5</NAME>
+      <DESCRIPTION>Uporabnik je bil zelo zadovoljen z nakupom</DESCRIPTION>
+      <GROUP>GOOD</GROUP>
+    </SCALEVALUE>
+  </SCALE>
+  <ATTRIBUTE>
+    <NAME>Nakup televizorja</NAME>
+    <DESCRIPTION>Nakup televizorja zaradi zastarelosti starega</DESCRIPTION>
+    <SCALE>Nakup televizorja</SCALE>
+    <FUNCTION>Nakup televizorja</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Tehnicne lastnosti</NAME>
+    <DESCRIPTION>Karakteristike televizorja</DESCRIPTION>
+    <PARENT>Nakup televizorja</PARENT>
+    <SCALE>Tehnicne lastnosti</SCALE>
+    <FUNCTION>Tehnicne lastnosti</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Zunanji parametri</NAME>
+    <DESCRIPTION>Zunanje mere televizorja in postavitev</DESCRIPTION>
+    <PARENT>Tehnicne lastnosti</PARENT>
+    <SCALE>Zunanji parametri</SCALE>
+    <FUNCTION>Zunanji parametri</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Diagonala</NAME>
+    <DESCRIPTION>Velikost zaslona televizorja</DESCRIPTION>
+    <PARENT>Zunanji parametri</PARENT>
+    <SCALE>Diagonala</SCALE>
+    <FUNCTION>Diagonala</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Postavitev televizorja</NAME>
+    <DESCRIPTION>Nacin postavitve, ki je odvisna od teze televizorja</DESCRIPTION>
+    <PARENT>Zunanji parametri</PARENT>
+    <SCALE>Postavitev televizorja</SCALE>
+    <FUNCTION>Postavitev televizorja</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Polozaj televizorja</NAME>
+    <DESCRIPTION>Postavitev televizorja v prostoru</DESCRIPTION>
+    <PARENT>Postavitev televizorja</PARENT>
+    <SCALE>Polozaj televizorja</SCALE>
+    <FUNCTION>Polozaj televizorja</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Teza</NAME>
+    <DESCRIPTION>Teza televizorja</DESCRIPTION>
+    <PARENT>Postavitev televizorja</PARENT>
+    <SCALE>Teza</SCALE>
+    <FUNCTION>Teza</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Zaslon</NAME>
+    <DESCRIPTION>Karakteristike zaslona televizorja</DESCRIPTION>
+    <PARENT>Tehnicne lastnosti</PARENT>
+    <SCALE>Zaslon</SCALE>
+    <FUNCTION>Zaslon</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Locljivost</NAME>
+    <DESCRIPTION>Locljivost zaslona</DESCRIPTION>
+    <PARENT>Zaslon</PARENT>
+    <SCALE>Locljivost</SCALE>
+    <FUNCTION>Locljivost</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Vrsta zaslona</NAME>
+    <DESCRIPTION>Vrsta zaslona televizorja glede na tehnologije</DESCRIPTION>
+    <PARENT>Zaslon</PARENT>
+    <SCALE>Vrsta zaslona</SCALE>
+    <FUNCTION>Vrsta zaslona</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Frekvenca slike</NAME>
+    <DESCRIPTION>Frekvenca osveževanja slike</DESCRIPTION>
+    <PARENT>Zaslon</PARENT>
+    <SCALE>Frekvenca slike</SCALE>
+    <FUNCTION>Frekvenca slike</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Programska oprema</NAME>
+    <DESCRIPTION>Subjektivna ocena programske opreme</DESCRIPTION>
+    <PARENT>Tehnicne lastnosti</PARENT>
+    <SCALE>Programska oprema</SCALE>
+    <FUNCTION>Programska oprema</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Operacijski sistem</NAME>
+    <DESCRIPTION>Operacijski sistem televizorja</DESCRIPTION>
+    <PARENT>Programska oprema</PARENT>
+    <SCALE>Operacijski sistem</SCALE>
+    <FUNCTION>Operacijski sistem</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Aplikacije</NAME>
+    <DESCRIPTION>Pametne funkcije televizorja</DESCRIPTION>
+    <PARENT>Programska oprema</PARENT>
+    <SCALE>Aplikacije</SCALE>
+    <FUNCTION>Aplikacije</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Ponudnik</NAME>
+    <DESCRIPTION>Proizvajalec televizorja</DESCRIPTION>
+    <PARENT>Nakup televizorja</PARENT>
+    <SCALE>Ponudnik</SCALE>
+    <FUNCTION>Ponudnik</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Izkusnja s proizvajalcem</NAME>
+    <DESCRIPTION>Proizvajalec televizorja, ki ga subjektivno ocenjujemo glede na pretekle izkusnje</DESCRIPTION>
+    <PARENT>Ponudnik</PARENT>
+    <SCALE>Izkusnja s proizvajalcem</SCALE>
+    <FUNCTION>Izkusnja s proizvajalcem</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Garancija</NAME>
+    <DESCRIPTION>Garancijski rok, ki ga za televizor jamci proizvajalec in prodajalec</DESCRIPTION>
+    <PARENT>Ponudnik</PARENT>
+    <SCALE>Garancija</SCALE>
+    <FUNCTION>Garancija</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Cena</NAME>
+    <DESCRIPTION>Koncna cena ponudnika televizorja</DESCRIPTION>
+    <PARENT>Nakup televizorja</PARENT>
+    <SCALE>Cena</SCALE>
+    <FUNCTION>Cena</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Energijski razred</NAME>
+    <DESCRIPTION>Poraba energije televizorja</DESCRIPTION>
+    <PARENT>Nakup televizorja</PARENT>
+    <SCALE>Energijski razred</SCALE>
+    <FUNCTION>Energijski razred</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Spletne ocene</NAME>
+    <DESCRIPTION>Mnenja kupcev po nakupu televizorja</DESCRIPTION>
+    <PARENT>Nakup televizorja</PARENT>
+    <SCALE>Spletne ocene</SCALE>
+    <FUNCTION>Spletne ocene</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Mimovrste</NAME>
+    <DESCRIPTION>Ocene kupcev izdelka preko ponudnika Mimovrste</DESCRIPTION>
+    <PARENT>Spletne ocene</PARENT>
+    <SCALE>Mimovrste</SCALE>
+    <FUNCTION>Mimovrste</FUNCTION>
+  </ATTRIBUTE>
+  <ATTRIBUTE>
+    <NAME>Amazon</NAME>
+    <DESCRIPTION>Ocene kupcev izdelka preko ponudnika Amazon</DESCRIPTION>
+    <PARENT>Spletne ocene</PARENT>
+    <SCALE>Amazon</SCALE>
+    <FUNCTION>Amazon</FUNCTION>
+  </ATTRIBUTE>
+  <FUNCTION>
+    <NAME>Nakup televizorja</NAME>
+    <ATTRLIST>Tehnicne lastnosti;Ponudnik;Cena;Energijski razred;Spletne ocene</ATTRLIST>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;G;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;G;3</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;G;4</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;G;5</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;F;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;F;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;F;3</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;F;4</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;E;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;E;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;E;3</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;D;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;D;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;C;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;C;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;B;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;B;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;A;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;A;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Visoka cena;A;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;G;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;G;3</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;G;4</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;F;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;F;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;F;3</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;E;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;E;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;D;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;C;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;B;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;B;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;A;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;A;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Srednja cena;A;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;G;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;G;3</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;G;4</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;F;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;F;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;F;3</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;E;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;E;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;D;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;C;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;B;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;B;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;A;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;A;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Slab;Nizka cena;A;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;G;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;G;3</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;G;4</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;F;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;F;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;F;3</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;E;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;E;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;D;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;C;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;B;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;B;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;A;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;A;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Visoka cena;A;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;G;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;G;3</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;F;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;F;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;E;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;C;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;B;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;B;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;A;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;A;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Srednja cena;A;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;G;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;G;3</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;F;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;F;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;E;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;C;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;B;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;B;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;A;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;A;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Dober;Nizka cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;G;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;G;3</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;F;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;F;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;E;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;C;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;B;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;B;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;A;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;A;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Visoka cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;G;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;G;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;F;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;F;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;E;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;C;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;B;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;B;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;A;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;A;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Srednja cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;G;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;G;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;F;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;F;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;E;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;C;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;B;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;B;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;A;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;A;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj zadovoljive;Odlièen;Nizka cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;G;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;G;3</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;F;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;F;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;E;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;C;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;B;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;B;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;A;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;A;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Visoka cena;A;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;G;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;G;3</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;F;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;F;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;E;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;C;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;B;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;B;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;A;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;A;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Srednja cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;G;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;G;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;F;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;F;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;E;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;C;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;B;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;B;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;A;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;A;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Slab;Nizka cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;G;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;G;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;F;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;F;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;E;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;C;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;B;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;B;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;A;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;A;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Visoka cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;G;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;G;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;F;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;F;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;E;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;C;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;B;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;B;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;A;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;A;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Srednja cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;G;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;G;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;F;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;F;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;E;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;C;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;B;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;B;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;A;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;A;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Dober;Nizka cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;G;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;G;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;F;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;F;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;E;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;C;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;B;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;B;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;A;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;A;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Visoka cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;G;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;G;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;F;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;F;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;E;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;C;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;B;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;B;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;A;3</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;A;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Srednja cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;G;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;G;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;G;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;F;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;F;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;E;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;C;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;B;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;B;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;A;3</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;A;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zadovoljive;Odlièen;Nizka cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;G;2</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;G;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;F;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;F;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;E;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;C;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;B;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;B;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;A;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;A;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Visoka cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;G;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;G;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;F;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;F;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;E;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;C;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;B;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;B;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;A;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;A;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Srednja cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;G;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;G;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;F;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;F;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;E;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;C;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;B;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;B;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;A;3</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;A;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Slab;Nizka cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;G;1</CONDITION>
+      <RESULT>Slab nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;G;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;G;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;F;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;F;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;E;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;C;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;B;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;B;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;A;3</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;A;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Visoka cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;G;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;G;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;G;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;F;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;F;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;E;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;D;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;C;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;C;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;B;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;B;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;B;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;A;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;A;3</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;A;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Srednja cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;G;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;G;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;G;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;F;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;F;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;E;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;D;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;C;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;C;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;B;3</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;B;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;B;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;A;2</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;A;3</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;A;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Dober;Nizka cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;G;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;G;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;G;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;F;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;F;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;E;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;D;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;C;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;C;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;B;3</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;B;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;B;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;A;2</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;A;3</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;A;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Visoka cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;G;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;G;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;G;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;F;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;F;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;E;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;E;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;D;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;D;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;C;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;C;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;C;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;B;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;B;3</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;B;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;B;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;A;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;A;2</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;A;3</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;A;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Srednja cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;G;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;G;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;G;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;G;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;G;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;F;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;F;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;F;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;F;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;F;5</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;E;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;E;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;E;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;E;4</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;E;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;D;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;D;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;D;3</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;D;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;D;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;C;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;C;2</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;C;3</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;C;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;C;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;B;1</CONDITION>
+      <RESULT>Dober nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;B;2</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;B;3</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;B;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;B;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;A;1</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;A;2</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;A;3</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;A;4</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo zadovoljive;Odlièen;Nizka cena;A;5</CONDITION>
+      <RESULT>Odlièen nakup</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Tehnicne lastnosti</NAME>
+    <ATTRLIST>Zunanji parametri;Zaslon;Programska oprema</ATTRLIST>
+    <RULE>
+      <CONDITION>Slab;Manj kvaliteten zaslon;Manj uporabno</CONDITION>
+      <RESULT>Manj zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Manj kvaliteten zaslon;Uporabno</CONDITION>
+      <RESULT>Manj zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Manj kvaliteten zaslon;Zelo uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Kvaliteten zaslon;Manj uporabno</CONDITION>
+      <RESULT>Manj zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Kvaliteten zaslon;Uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Kvaliteten zaslon;Zelo uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Zelo kvaliteten zaslon;Manj uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Zelo kvaliteten zaslon;Uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Slab;Zelo kvaliteten zaslon;Zelo uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Manj kvaliteten zaslon;Manj uporabno</CONDITION>
+      <RESULT>Manj zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Manj kvaliteten zaslon;Uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Manj kvaliteten zaslon;Zelo uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Kvaliteten zaslon;Manj uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Kvaliteten zaslon;Uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Kvaliteten zaslon;Zelo uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Zelo kvaliteten zaslon;Manj uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Zelo kvaliteten zaslon;Uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Dober;Zelo kvaliteten zaslon;Zelo uporabno</CONDITION>
+      <RESULT>Zelo zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Odlièen;Manj kvaliteten zaslon;Manj uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Odlièen;Manj kvaliteten zaslon;Uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Odlièen;Manj kvaliteten zaslon;Zelo uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Odlièen;Kvaliteten zaslon;Manj uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Odlièen;Kvaliteten zaslon;Uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Odlièen;Kvaliteten zaslon;Zelo uporabno</CONDITION>
+      <RESULT>Zelo zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Odlièen;Zelo kvaliteten zaslon;Manj uporabno</CONDITION>
+      <RESULT>Zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Odlièen;Zelo kvaliteten zaslon;Uporabno</CONDITION>
+      <RESULT>Zelo zadovoljive</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Odlièen;Zelo kvaliteten zaslon;Zelo uporabno</CONDITION>
+      <RESULT>Zelo zadovoljive</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Zunanji parametri</NAME>
+    <ATTRLIST>Diagonala;Postavitev televizorja</ATTRLIST>
+    <RULE>
+      <CONDITION>Manjši zaslon;Slaba</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manjši zaslon;Dobra</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manjši zaslon;Odlièna</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Srednji zaslon;Slaba</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Srednji zaslon;Dobra</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Srednji zaslon;Odlièna</CONDITION>
+      <RESULT>Odlièen</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Velik zaslon;Slaba</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Velik zaslon;Dobra</CONDITION>
+      <RESULT>Odlièen</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Velik zaslon;Odlièna</CONDITION>
+      <RESULT>Odlièen</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Postavitev televizorja</NAME>
+    <ATTRLIST>Polozaj televizorja;Teza</ATTRLIST>
+    <RULE>
+      <CONDITION>Namizni;Višja teža</CONDITION>
+      <RESULT>Slaba</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Namizni;Srednja teža</CONDITION>
+      <RESULT>Slaba</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Namizni;Nižja teža</CONDITION>
+      <RESULT>Dobra</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Stenski;Višja teža</CONDITION>
+      <RESULT>Dobra</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Stenski;Srednja teža</CONDITION>
+      <RESULT>Dobra</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Stenski;Nižja teža</CONDITION>
+      <RESULT>Dobra</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Namizni in stenski;Višja teža</CONDITION>
+      <RESULT>Dobra</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Namizni in stenski;Srednja teža</CONDITION>
+      <RESULT>Odlièna</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Namizni in stenski;Nižja teža</CONDITION>
+      <RESULT>Odlièna</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Zaslon</NAME>
+    <ATTRLIST>Locljivost;Vrsta zaslona;Frekvenca slike</ATTRLIST>
+    <RULE>
+      <CONDITION>Nižja loèljivost;Slaba izbira;Do 50 Hz</CONDITION>
+      <RESULT>Manj kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nižja loèljivost;Slaba izbira;Med 50 in 80 Hz</CONDITION>
+      <RESULT>Manj kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nižja loèljivost;Slaba izbira;Nad 80 Hz</CONDITION>
+      <RESULT>Manj kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nižja loèljivost;Srednja izbira;Do 50 Hz</CONDITION>
+      <RESULT>Manj kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nižja loèljivost;Srednja izbira;Med 50 in 80 Hz</CONDITION>
+      <RESULT>Manj kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nižja loèljivost;Srednja izbira;Nad 80 Hz</CONDITION>
+      <RESULT>Kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nižja loèljivost;Odlièna izbira;Do 50 Hz</CONDITION>
+      <RESULT>Manj kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nižja loèljivost;Odlièna izbira;Med 50 in 80 Hz</CONDITION>
+      <RESULT>Kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Nižja loèljivost;Odlièna izbira;Nad 80 Hz</CONDITION>
+      <RESULT>Kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Srednja loèljivost;Slaba izbira;Do 50 Hz</CONDITION>
+      <RESULT>Manj kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Srednja loèljivost;Slaba izbira;Med 50 in 80 Hz</CONDITION>
+      <RESULT>Manj kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Srednja loèljivost;Slaba izbira;Nad 80 Hz</CONDITION>
+      <RESULT>Manj kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Srednja loèljivost;Srednja izbira;Do 50 Hz</CONDITION>
+      <RESULT>Manj kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Srednja loèljivost;Srednja izbira;Med 50 in 80 Hz</CONDITION>
+      <RESULT>Kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Srednja loèljivost;Srednja izbira;Nad 80 Hz</CONDITION>
+      <RESULT>Kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Srednja loèljivost;Odlièna izbira;Do 50 Hz</CONDITION>
+      <RESULT>Kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Srednja loèljivost;Odlièna izbira;Med 50 in 80 Hz</CONDITION>
+      <RESULT>Kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Srednja loèljivost;Odlièna izbira;Nad 80 Hz</CONDITION>
+      <RESULT>Zelo kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka loèljivost;Slaba izbira;Do 50 Hz</CONDITION>
+      <RESULT>Manj kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka loèljivost;Slaba izbira;Med 50 in 80 Hz</CONDITION>
+      <RESULT>Kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka loèljivost;Slaba izbira;Nad 80 Hz</CONDITION>
+      <RESULT>Kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka loèljivost;Srednja izbira;Do 50 Hz</CONDITION>
+      <RESULT>Kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka loèljivost;Srednja izbira;Med 50 in 80 Hz</CONDITION>
+      <RESULT>Kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka loèljivost;Srednja izbira;Nad 80 Hz</CONDITION>
+      <RESULT>Zelo kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka loèljivost;Odlièna izbira;Do 50 Hz</CONDITION>
+      <RESULT>Kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka loèljivost;Odlièna izbira;Med 50 in 80 Hz</CONDITION>
+      <RESULT>Zelo kvaliteten zaslon</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Visoka loèljivost;Odlièna izbira;Nad 80 Hz</CONDITION>
+      <RESULT>Zelo kvaliteten zaslon</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Programska oprema</NAME>
+    <ATTRLIST>Operacijski sistem;Aplikacije</ATTRLIST>
+    <RULE>
+      <CONDITION>Manj primeren;Do 3 aplikacije</CONDITION>
+      <RESULT>Manj uporabno</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj primeren;Med 3 in 5 aplikacijami</CONDITION>
+      <RESULT>Manj uporabno</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Manj primeren;Veè kot 5 aplikacij</CONDITION>
+      <RESULT>Uporabno</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Primeren;Do 3 aplikacije</CONDITION>
+      <RESULT>Manj uporabno</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Primeren;Med 3 in 5 aplikacijami</CONDITION>
+      <RESULT>Uporabno</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Primeren;Veè kot 5 aplikacij</CONDITION>
+      <RESULT>Zelo uporabno</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo primeren;Do 3 aplikacije</CONDITION>
+      <RESULT>Uporabno</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo primeren;Med 3 in 5 aplikacijami</CONDITION>
+      <RESULT>Zelo uporabno</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>Zelo primeren;Veè kot 5 aplikacij</CONDITION>
+      <RESULT>Zelo uporabno</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Ponudnik</NAME>
+    <ATTRLIST>Izkusnja s proizvajalcem;Garancija</ATTRLIST>
+    <RULE>
+      <CONDITION>1;Kratek garancijski rok</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>1;Srednji garancijski rok</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>1;Dolg garancijski rok</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>1;Zelo dolg garancijski rok</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>2;Kratek garancijski rok</CONDITION>
+      <RESULT>Slab</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>2;Srednji garancijski rok</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>2;Dolg garancijski rok</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>2;Zelo dolg garancijski rok</CONDITION>
+      <RESULT>Odlièen</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>3;Kratek garancijski rok</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>3;Srednji garancijski rok</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>3;Dolg garancijski rok</CONDITION>
+      <RESULT>Odlièen</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>3;Zelo dolg garancijski rok</CONDITION>
+      <RESULT>Odlièen</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>4;Kratek garancijski rok</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>4;Srednji garancijski rok</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>4;Dolg garancijski rok</CONDITION>
+      <RESULT>Odlièen</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>4;Zelo dolg garancijski rok</CONDITION>
+      <RESULT>Odlièen</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>5;Kratek garancijski rok</CONDITION>
+      <RESULT>Dober</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>5;Srednji garancijski rok</CONDITION>
+      <RESULT>Odlièen</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>5;Dolg garancijski rok</CONDITION>
+      <RESULT>Odlièen</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>5;Zelo dolg garancijski rok</CONDITION>
+      <RESULT>Odlièen</RESULT>
+    </RULE>
+  </FUNCTION>
+  <FUNCTION>
+    <NAME>Spletne ocene</NAME>
+    <ATTRLIST>Mimovrste;Amazon</ATTRLIST>
+    <RULE>
+      <CONDITION>1;1</CONDITION>
+      <RESULT>1</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>1;2</CONDITION>
+      <RESULT>1</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>1;3</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>1;4</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>1;5</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>2;1</CONDITION>
+      <RESULT>1</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>2;2</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>2;3</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>2;4</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>2;5</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>3;1</CONDITION>
+      <RESULT>2</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>3;2</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>3;3</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>3;4</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>3;5</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>4;1</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>4;2</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>4;3</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>4;4</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>4;5</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>5;1</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>5;2</CONDITION>
+      <RESULT>3</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>5;3</CONDITION>
+      <RESULT>4</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>5;4</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+    <RULE>
+      <CONDITION>5;5</CONDITION>
+      <RESULT>5</RESULT>
+    </RULE>
+  </FUNCTION>
+  <OPTION>
+    <NAME>SAMSUNG 55Q60TAU</NAME>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Diagonala</ATTRIBUTE>
+      <VALUE>Manjši zaslon</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Polozaj televizorja</ATTRIBUTE>
+      <VALUE>Namizni in stenski</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Teza</ATTRIBUTE>
+      <VALUE>Srednja teža</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Locljivost</ATTRIBUTE>
+      <VALUE>Visoka loèljivost</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Vrsta zaslona</ATTRIBUTE>
+      <VALUE>Srednja izbira</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Frekvenca slike</ATTRIBUTE>
+      <VALUE>Med 50 in 80 Hz</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Operacijski sistem</ATTRIBUTE>
+      <VALUE>Primeren</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Aplikacije</ATTRIBUTE>
+      <VALUE>Do 3 aplikacije</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Izkusnja s proizvajalcem</ATTRIBUTE>
+      <VALUE>5</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Garancija</ATTRIBUTE>
+      <VALUE>Kratek garancijski rok</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Cena</ATTRIBUTE>
+      <VALUE>Nizka cena</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Energijski razred</ATTRIBUTE>
+      <VALUE>A</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Mimovrste</ATTRIBUTE>
+      <VALUE>5</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Amazon</ATTRIBUTE>
+      <VALUE>5</VALUE>
+    </OPTIONVALUE>
+  </OPTION>
+  <OPTION>
+    <NAME>SONY KD-65X80J</NAME>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Diagonala</ATTRIBUTE>
+      <VALUE>Srednji zaslon</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Polozaj televizorja</ATTRIBUTE>
+      <VALUE>Namizni</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Teza</ATTRIBUTE>
+      <VALUE>Srednja teža</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Locljivost</ATTRIBUTE>
+      <VALUE>Visoka loèljivost</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Vrsta zaslona</ATTRIBUTE>
+      <VALUE>Slaba izbira</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Frekvenca slike</ATTRIBUTE>
+      <VALUE>Do 50 Hz</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Operacijski sistem</ATTRIBUTE>
+      <VALUE>Zelo primeren</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Aplikacije</ATTRIBUTE>
+      <VALUE>Veè kot 5 aplikacij</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Izkusnja s proizvajalcem</ATTRIBUTE>
+      <VALUE>3</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Garancija</ATTRIBUTE>
+      <VALUE>Kratek garancijski rok</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Cena</ATTRIBUTE>
+      <VALUE>Srednja cena</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Energijski razred</ATTRIBUTE>
+      <VALUE>G</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Mimovrste</ATTRIBUTE>
+      <VALUE>5</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Amazon</ATTRIBUTE>
+      <VALUE>4</VALUE>
+    </OPTIONVALUE>
+  </OPTION>
+  <OPTION>
+    <NAME>LG UP8070</NAME>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Diagonala</ATTRIBUTE>
+      <VALUE>Velik zaslon</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Polozaj televizorja</ATTRIBUTE>
+      <VALUE>Namizni</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Teza</ATTRIBUTE>
+      <VALUE>Višja teža</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Locljivost</ATTRIBUTE>
+      <VALUE>Visoka loèljivost</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Vrsta zaslona</ATTRIBUTE>
+      <VALUE>Slaba izbira</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Frekvenca slike</ATTRIBUTE>
+      <VALUE>Med 50 in 80 Hz</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Operacijski sistem</ATTRIBUTE>
+      <VALUE>Manj primeren</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Aplikacije</ATTRIBUTE>
+      <VALUE>Med 3 in 5 aplikacijami</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Izkusnja s proizvajalcem</ATTRIBUTE>
+      <VALUE>2</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Garancija</ATTRIBUTE>
+      <VALUE>Kratek garancijski rok</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Cena</ATTRIBUTE>
+      <VALUE>Nizka cena</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Energijski razred</ATTRIBUTE>
+      <VALUE>E</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Mimovrste</ATTRIBUTE>
+      <VALUE>5</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Amazon</ATTRIBUTE>
+      <VALUE>4</VALUE>
+    </OPTIONVALUE>
+  </OPTION>
+  <OPTION>
+    <NAME>PHILLIPS 650LED806</NAME>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Diagonala</ATTRIBUTE>
+      <VALUE>Srednji zaslon</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Polozaj televizorja</ATTRIBUTE>
+      <VALUE>Namizni in stenski</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Teza</ATTRIBUTE>
+      <VALUE>Srednja teža</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Locljivost</ATTRIBUTE>
+      <VALUE>Visoka loèljivost</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Vrsta zaslona</ATTRIBUTE>
+      <VALUE>Odlièna izbira</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Frekvenca slike</ATTRIBUTE>
+      <VALUE>Nad 80 Hz</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Operacijski sistem</ATTRIBUTE>
+      <VALUE>Zelo primeren</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Aplikacije</ATTRIBUTE>
+      <VALUE>Veè kot 5 aplikacij</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Izkusnja s proizvajalcem</ATTRIBUTE>
+      <VALUE>4</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Garancija</ATTRIBUTE>
+      <VALUE>Srednji garancijski rok</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Cena</ATTRIBUTE>
+      <VALUE>Visoka cena</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Energijski razred</ATTRIBUTE>
+      <VALUE>G</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Mimovrste</ATTRIBUTE>
+      <VALUE>5</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Amazon</ATTRIBUTE>
+      <VALUE>5</VALUE>
+    </OPTIONVALUE>
+  </OPTION>
+  <OPTION>
+    <NAME>TLC 65P725</NAME>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Diagonala</ATTRIBUTE>
+      <VALUE>Srednji zaslon</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Polozaj televizorja</ATTRIBUTE>
+      <VALUE>Namizni in stenski</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Teza</ATTRIBUTE>
+      <VALUE>Srednja teža</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Locljivost</ATTRIBUTE>
+      <VALUE>Visoka loèljivost</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Vrsta zaslona</ATTRIBUTE>
+      <VALUE>Slaba izbira</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Frekvenca slike</ATTRIBUTE>
+      <VALUE>Do 50 Hz</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Operacijski sistem</ATTRIBUTE>
+      <VALUE>Zelo primeren</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Aplikacije</ATTRIBUTE>
+      <VALUE>Veè kot 5 aplikacij</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Izkusnja s proizvajalcem</ATTRIBUTE>
+      <VALUE>1</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Garancija</ATTRIBUTE>
+      <VALUE>Srednji garancijski rok</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Cena</ATTRIBUTE>
+      <VALUE>Nizka cena</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Energijski razred</ATTRIBUTE>
+      <VALUE>E</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Mimovrste</ATTRIBUTE>
+      <VALUE>4</VALUE>
+    </OPTIONVALUE>
+    <OPTIONVALUE>
+      <ATTRIBUTE>Amazon</ATTRIBUTE>
+      <VALUE>4</VALUE>
+    </OPTIONVALUE>
+  </OPTION>
+</MODEL>

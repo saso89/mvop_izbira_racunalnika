@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEXi>
+  <VERSION>5.05</VERSION>
+  <CREATED>2023-01-23T21:12:02</CREATED>
+  <OPTION>SAMSUNG 55Q60TAU</OPTION>
+  <OPTION>SONY KD-65X80J</OPTION>
+  <OPTION>LG UP8070</OPTION>
+  <OPTION>PHILLIPS 650LED806</OPTION>
+  <OPTION>TLC 65P725</OPTION>
+  <SETTINGS>
+    <REPORTS>8</REPORTS>
+  </SETTINGS>
+  <ATTRIBUTE>
+    <NAME>Nakup televizorja</NAME>
+    <DESCRIPTION>Nakup televizorja zaradi zastarelosti starega</DESCRIPTION>
+    <SCALE>
+      <SCALEVALUE>
+        <NAME>Slab nakup</NAME>
+        <DESCRIPTION>Uporabnik ne bo zadovoljen z nakupom</DESCRIPTION>
+        <GROUP>BAD</GROUP>
+      </SCALEVALUE>
+      <SCALEVALUE>
+        <NAME>Dober nakup</NAME>
+        <DESCRIPTION>Uporabnik bo zadovoljen z nakupom</DESCRIPTION>
+      </SCALEVALUE>
+      <SCALEVALUE>
+        <NAME>Odličen nakup</NAME>
+        <DESCRIPTION>Uporabnik bo zelo zadovoljen z nakupom</DESCRIPTION>
+        <GROUP>GOOD</GROUP>
+      </SCALEVALUE>
+    </SCALE>
+    <FUNCTION>
+      <LOW>000000000100011001110111111111111110000100011001110111111111111111111100001000110011101111111111111111111000010001100111011111111111111111110001100111011111111111111111111111100011001110111111111111111111111112000110011101111111111111111111111120011101111111111111111111111111111200111011111111111111111111111211122000110011101111111111111111111111110001100111011111111111111111111111200111011111111111111111111111111112001110111111111111111111111111111120011101111111111111111111111121112201111111111111111111111111111211122011111111111111111111111111112111220111111111111111111111112111221122211111111111111111111111121112211222001110111111111111111111111112111220111111111111111111111111111121112201111111111111111111111121112211222011111111111111111111111211122112221111111111111111111111112111221122211111111111111111112111221122212222111111111111111111121112211222122221111111111111111111211122112221222211111111111111211122112221222222222</LOW>
+      <ENTERED>+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+</ENTERED>
+      <WEIGHTS>30;20;10;20;20</WEIGHTS>
+      <LOCWEIGHTS>24.00;24.00;24.00;12.00;16.00</LOCWEIGHTS>
+      <NORMLOCWEIGHTS>17.14;17.14;17.14;25.71;22.86</NORMLOCWEIGHTS>
+    </FUNCTION>
+    <OPTION>2</OPTION>
+    <OPTION>1</OPTION>
+    <OPTION>1</OPTION>
+    <OPTION>1</OPTION>
+    <OPTION>1</OPTION>
+    <ATTRIBUTE>
+      <NAME>Tehnicne lastnosti</NAME>
+      <DESCRIPTION>Karakteristike televizorja</DESCRIPTION>
+      <SCALE>
+        <SCALEVALUE>
+          <NAME>Manj zadovoljive</NAME>
+          <DESCRIPTION>Tehnične lastnosti nam manj ustrezajo</DESCRIPTION>
+          <GROUP>BAD</GROUP>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>Zadovoljive</NAME>
+          <DESCRIPTION>Tehnične lastnosti nam ustrezajo</DESCRIPTION>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>Zelo zadovoljive</NAME>
+          <DESCRIPTION>Tehnične lastnosti nam zelo ustrezajo</DESCRIPTION>
+          <GROUP>GOOD</GROUP>
+        </SCALEVALUE>
+      </SCALE>
+      <FUNCTION>
+        <LOW>001011111011111112111112122</LOW>
+        <ENTERED>+-------------------------+</ENTERED>
+        <WEIGHTS>33.3333333333333;33.3333333333333;33.3333333333333</WEIGHTS>
+        <LOCWEIGHTS>33.33;33.33;33.33</LOCWEIGHTS>
+        <NORMLOCWEIGHTS>33.33;33.33;33.33</NORMLOCWEIGHTS>
+      </FUNCTION>
+      <OPTION>1</OPTION>
+      <OPTION>1</OPTION>
+      <OPTION>1</OPTION>
+      <OPTION>2</OPTION>
+      <OPTION>1</OPTION>
+      <ATTRIBUTE>
+        <NAME>Zunanji parametri</NAME>
+        <DESCRIPTION>Zunanje mere televizorja in postavitev</DESCRIPTION>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>Slab</NAME>
+            <DESCRIPTION>Slabši zunanji parametri</DESCRIPTION>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Dober</NAME>
+            <DESCRIPTION>Zadovoljivi zunanji parametri</DESCRIPTION>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Odličen</NAME>
+            <DESCRIPTION>Zelo zadovoljivi zunanji parametri</DESCRIPTION>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <FUNCTION>
+          <LOW>001012122</LOW>
+          <ENTERED>+-------+</ENTERED>
+          <WEIGHTS>50;50</WEIGHTS>
+          <LOCWEIGHTS>50.00;50.00</LOCWEIGHTS>
+          <NORMLOCWEIGHTS>50.00;50.00</NORMLOCWEIGHTS>
+        </FUNCTION>
+        <OPTION>1</OPTION>
+        <OPTION>0</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>2</OPTION>
+        <ATTRIBUTE>
+          <NAME>Diagonala</NAME>
+          <DESCRIPTION>Velikost zaslona televizorja</DESCRIPTION>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Manjši zaslon</NAME>
+              <DESCRIPTION>Diagonala zaslona pod 140 cm</DESCRIPTION>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Srednji zaslon</NAME>
+              <DESCRIPTION>Diagonala zaslona med 140 in 170 cm</DESCRIPTION>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Velik zaslon</NAME>
+              <DESCRIPTION>Diagonala zaslona nad 170 cm</DESCRIPTION>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <OPTION>0</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>1</OPTION>
+        </ATTRIBUTE>
+        <ATTRIBUTE>
+          <NAME>Postavitev televizorja</NAME>
+          <DESCRIPTION>Nacin postavitve, ki je odvisna od teze televizorja</DESCRIPTION>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Slaba</NAME>
+              <DESCRIPTION>Brez možnosti stenske postavitve in težji televizor</DESCRIPTION>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Dobra</NAME>
+              <DESCRIPTION>Samo stenska možnost postavitve in srednja teža</DESCRIPTION>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Odlična</NAME>
+              <DESCRIPTION>Lahek televizor in obe možnosti postavitve</DESCRIPTION>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <FUNCTION>
+            <LOW>001111122</LOW>
+            <ENTERED>+-------+</ENTERED>
+            <WEIGHTS>70;30</WEIGHTS>
+            <LOCWEIGHTS>66.67;33.33</LOCWEIGHTS>
+            <NORMLOCWEIGHTS>66.67;33.33</NORMLOCWEIGHTS>
+          </FUNCTION>
+          <OPTION>2</OPTION>
+          <OPTION>0</OPTION>
+          <OPTION>0</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>2</OPTION>
+          <ATTRIBUTE>
+            <NAME>Polozaj televizorja</NAME>
+            <DESCRIPTION>Postavitev televizorja v prostoru</DESCRIPTION>
+            <SCALE>
+              <SCALEVALUE>
+                <NAME>Namizni</NAME>
+                <DESCRIPTION>Postavitev na omarici</DESCRIPTION>
+                <GROUP>BAD</GROUP>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Stenski</NAME>
+                <DESCRIPTION>Montaža na steno</DESCRIPTION>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Namizni in stenski</NAME>
+                <DESCRIPTION>Obe možnosti postavitve</DESCRIPTION>
+                <GROUP>GOOD</GROUP>
+              </SCALEVALUE>
+            </SCALE>
+            <OPTION>2</OPTION>
+            <OPTION>0</OPTION>
+            <OPTION>0</OPTION>
+            <OPTION>2</OPTION>
+            <OPTION>2</OPTION>
+          </ATTRIBUTE>
+          <ATTRIBUTE>
+            <NAME>Teza</NAME>
+            <DESCRIPTION>Teza televizorja</DESCRIPTION>
+            <SCALE>
+              <SCALEVALUE>
+                <NAME>Višja teža</NAME>
+                <DESCRIPTION>Nad 25 kg</DESCRIPTION>
+                <GROUP>BAD</GROUP>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Srednja teža</NAME>
+                <DESCRIPTION>15 do 25 kg</DESCRIPTION>
+              </SCALEVALUE>
+              <SCALEVALUE>
+                <NAME>Nižja teža</NAME>
+                <DESCRIPTION>Pod 15 kg</DESCRIPTION>
+                <GROUP>GOOD</GROUP>
+              </SCALEVALUE>
+            </SCALE>
+            <OPTION>1</OPTION>
+            <OPTION>1</OPTION>
+            <OPTION>0</OPTION>
+            <OPTION>1</OPTION>
+            <OPTION>1</OPTION>
+          </ATTRIBUTE>
+        </ATTRIBUTE>
+      </ATTRIBUTE>
+      <ATTRIBUTE>
+        <NAME>Zaslon</NAME>
+        <DESCRIPTION>Karakteristike zaslona televizorja</DESCRIPTION>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>Manj kvaliteten zaslon</NAME>
+            <DESCRIPTION>Karakteristike zaslona so slabše</DESCRIPTION>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Kvaliteten zaslon</NAME>
+            <DESCRIPTION>Karakteristike zaslona so solidne</DESCRIPTION>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Zelo kvaliteten zaslon</NAME>
+            <DESCRIPTION>Karakteristike zaslona so odlične</DESCRIPTION>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <FUNCTION>
+          <LOW>000001011000011112011112122</LOW>
+          <ENTERED>+-+--------+-------------++</ENTERED>
+          <WEIGHTS>33.3333333333333;33.3333333333333;33.3333333333333</WEIGHTS>
+          <LOCWEIGHTS>33.33;37.50;29.17</LOCWEIGHTS>
+          <NORMLOCWEIGHTS>33.33;37.50;29.17</NORMLOCWEIGHTS>
+        </FUNCTION>
+        <OPTION>1</OPTION>
+        <OPTION>0</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>0</OPTION>
+        <ATTRIBUTE>
+          <NAME>Locljivost</NAME>
+          <DESCRIPTION>Locljivost zaslona</DESCRIPTION>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Nižja ločljivost</NAME>
+              <DESCRIPTION>1920x1080 in manj</DESCRIPTION>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Srednja ločljivost</NAME>
+              <DESCRIPTION>Med 1920x1080 in 2560x1600</DESCRIPTION>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Visoka ločljivost</NAME>
+              <DESCRIPTION>Nad 2560x1600</DESCRIPTION>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <OPTION>2</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>2</OPTION>
+        </ATTRIBUTE>
+        <ATTRIBUTE>
+          <NAME>Vrsta zaslona</NAME>
+          <DESCRIPTION>Vrsta zaslona televizorja glede na tehnologije</DESCRIPTION>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Slaba izbira</NAME>
+              <DESCRIPTION>Glede na subjektivno oceno manj primerna izbira (LED)</DESCRIPTION>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Srednja izbira</NAME>
+              <DESCRIPTION>Glede na subjektivno oceno primerna izbira (QLED)</DESCRIPTION>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Odlična izbira</NAME>
+              <DESCRIPTION>Glede na subjektivno oceno zelo primerna izbira (OLED)</DESCRIPTION>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <OPTION>1</OPTION>
+          <OPTION>0</OPTION>
+          <OPTION>0</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>0</OPTION>
+        </ATTRIBUTE>
+        <ATTRIBUTE>
+          <NAME>Frekvenca slike</NAME>
+          <DESCRIPTION>Frekvenca osveževanja slike</DESCRIPTION>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Do 50 Hz</NAME>
+              <DESCRIPTION>Počasnejše osveževanje slike</DESCRIPTION>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Med 50 in 80 Hz</NAME>
+              <DESCRIPTION>Zmerna frekvenca slike</DESCRIPTION>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Nad 80 Hz</NAME>
+              <DESCRIPTION>Hitro osveževanje slike</DESCRIPTION>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <OPTION>1</OPTION>
+          <OPTION>0</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>0</OPTION>
+        </ATTRIBUTE>
+      </ATTRIBUTE>
+      <ATTRIBUTE>
+        <NAME>Programska oprema</NAME>
+        <DESCRIPTION>Subjektivna ocena programske opreme</DESCRIPTION>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>Manj uporabno</NAME>
+            <DESCRIPTION>Programska oprema ni po naših željah</DESCRIPTION>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Uporabno</NAME>
+            <DESCRIPTION>Programska oprema je delno po naših željah</DESCRIPTION>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Zelo uporabno</NAME>
+            <DESCRIPTION>Programska oprema je povsem po naših željah</DESCRIPTION>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <FUNCTION>
+          <LOW>001012122</LOW>
+          <ENTERED>+-------+</ENTERED>
+          <WEIGHTS>50;50</WEIGHTS>
+          <LOCWEIGHTS>50.00;50.00</LOCWEIGHTS>
+          <NORMLOCWEIGHTS>50.00;50.00</NORMLOCWEIGHTS>
+        </FUNCTION>
+        <OPTION>0</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>0</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>2</OPTION>
+        <ATTRIBUTE>
+          <NAME>Operacijski sistem</NAME>
+          <DESCRIPTION>Operacijski sistem televizorja</DESCRIPTION>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Manj primeren</NAME>
+              <DESCRIPTION>Operacijski sistem, ki si ga ne želimo in bo primeren za našo uporabo</DESCRIPTION>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Primeren</NAME>
+              <DESCRIPTION>Operacijski sistem bo primeren za našo uporabo</DESCRIPTION>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Zelo primeren</NAME>
+              <DESCRIPTION>Operacijski sistem, ki si ga želimo in bo primeren za našo uporabo</DESCRIPTION>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <OPTION>1</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>0</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>2</OPTION>
+        </ATTRIBUTE>
+        <ATTRIBUTE>
+          <NAME>Aplikacije</NAME>
+          <DESCRIPTION>Pametne funkcije televizorja</DESCRIPTION>
+          <SCALE>
+            <SCALEVALUE>
+              <NAME>Do 3 aplikacije</NAME>
+              <DESCRIPTION>Malo uporabnih aplikacij</DESCRIPTION>
+              <GROUP>BAD</GROUP>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Med 3 in 5 aplikacijami</NAME>
+              <DESCRIPTION>Veliko aplikacij, nekaj med njimi je neuporabnih</DESCRIPTION>
+            </SCALEVALUE>
+            <SCALEVALUE>
+              <NAME>Več kot 5 aplikacij</NAME>
+              <DESCRIPTION>Veliko uporabnih aplikacij</DESCRIPTION>
+              <GROUP>GOOD</GROUP>
+            </SCALEVALUE>
+          </SCALE>
+          <OPTION>0</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>1</OPTION>
+          <OPTION>2</OPTION>
+          <OPTION>2</OPTION>
+        </ATTRIBUTE>
+      </ATTRIBUTE>
+    </ATTRIBUTE>
+    <ATTRIBUTE>
+      <NAME>Ponudnik</NAME>
+      <DESCRIPTION>Proizvajalec televizorja</DESCRIPTION>
+      <SCALE>
+        <SCALEVALUE>
+          <NAME>Slab</NAME>
+          <DESCRIPTION>Slabe izkušnje s proizvajalcem</DESCRIPTION>
+          <GROUP>BAD</GROUP>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>Dober</NAME>
+          <DESCRIPTION>Zadovoljive izkušnje s proizvajalcem</DESCRIPTION>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>Odličen</NAME>
+          <DESCRIPTION>Odlične izkušnje s proizvajalcem</DESCRIPTION>
+          <GROUP>GOOD</GROUP>
+        </SCALEVALUE>
+      </SCALE>
+      <FUNCTION>
+        <LOW>00110112112211221222</LOW>
+        <ENTERED>+--+---+------------</ENTERED>
+        <WEIGHTS>40;60</WEIGHTS>
+        <LOCWEIGHTS>41.67;58.33</LOCWEIGHTS>
+        <NORMLOCWEIGHTS>48.78;51.22</NORMLOCWEIGHTS>
+      </FUNCTION>
+      <OPTION>1</OPTION>
+      <OPTION>1</OPTION>
+      <OPTION>0</OPTION>
+      <OPTION>1</OPTION>
+      <OPTION>0</OPTION>
+      <ATTRIBUTE>
+        <NAME>Izkusnja s proizvajalcem</NAME>
+        <DESCRIPTION>Proizvajalec televizorja, ki ga subjektivno ocenjujemo glede na pretekle izkusnje</DESCRIPTION>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>1</NAME>
+            <DESCRIPTION>Izkušnja s proizvajalcem je bila v preteklosti slaba ali je ni bilo</DESCRIPTION>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>2</NAME>
+            <DESCRIPTION>Izkušnja s proizvajalcem je bila v preteklosti slabša</DESCRIPTION>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>3</NAME>
+            <DESCRIPTION>Izkušnja s proizvajalcem je bila v preteklosti dobra</DESCRIPTION>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>4</NAME>
+            <DESCRIPTION>Izkušnja s proizvajalcem je bila v preteklosti boljša</DESCRIPTION>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>5</NAME>
+            <DESCRIPTION>Izkušnja s proizvajalcem je bila v preteklosti odlična</DESCRIPTION>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <OPTION>4</OPTION>
+        <OPTION>2</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>3</OPTION>
+        <OPTION>0</OPTION>
+      </ATTRIBUTE>
+      <ATTRIBUTE>
+        <NAME>Garancija</NAME>
+        <DESCRIPTION>Garancijski rok, ki ga za televizor jamci proizvajalec in prodajalec</DESCRIPTION>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>Kratek garancijski rok</NAME>
+            <DESCRIPTION>2 leti garancije</DESCRIPTION>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Srednji garancijski rok</NAME>
+            <DESCRIPTION>3 leta garancije</DESCRIPTION>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Dolg garancijski rok</NAME>
+            <DESCRIPTION>4 leta garancije</DESCRIPTION>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>Zelo dolg garancijski rok</NAME>
+            <DESCRIPTION>5 let garancije</DESCRIPTION>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <OPTION>0</OPTION>
+        <OPTION>0</OPTION>
+        <OPTION>0</OPTION>
+        <OPTION>1</OPTION>
+        <OPTION>1</OPTION>
+      </ATTRIBUTE>
+    </ATTRIBUTE>
+    <ATTRIBUTE>
+      <NAME>Cena</NAME>
+      <DESCRIPTION>Koncna cena ponudnika televizorja</DESCRIPTION>
+      <SCALE>
+        <SCALEVALUE>
+          <NAME>Visoka cena</NAME>
+          <DESCRIPTION>Ponudba znaša več kot 1200 €</DESCRIPTION>
+          <GROUP>BAD</GROUP>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>Srednja cena</NAME>
+          <DESCRIPTION>Ponudba znaša med 800 in 1200 €</DESCRIPTION>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>Nizka cena</NAME>
+          <DESCRIPTION>Pounudba znaša manj kot 800 €</DESCRIPTION>
+          <GROUP>GOOD</GROUP>
+        </SCALEVALUE>
+      </SCALE>
+      <OPTION>2</OPTION>
+      <OPTION>1</OPTION>
+      <OPTION>2</OPTION>
+      <OPTION>0</OPTION>
+      <OPTION>2</OPTION>
+    </ATTRIBUTE>
+    <ATTRIBUTE>
+      <NAME>Energijski razred</NAME>
+      <DESCRIPTION>Poraba energije televizorja</DESCRIPTION>
+      <SCALE>
+        <SCALEVALUE>
+          <NAME>G</NAME>
+          <DESCRIPTION>Zelo nizek energijski razred</DESCRIPTION>
+          <GROUP>BAD</GROUP>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>F</NAME>
+          <DESCRIPTION>Nizek energijski razred</DESCRIPTION>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>E</NAME>
+          <DESCRIPTION>Srednji energijski razred</DESCRIPTION>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>D</NAME>
+          <DESCRIPTION>Srednji energijski razred</DESCRIPTION>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>C</NAME>
+          <DESCRIPTION>Srednji energijski razred</DESCRIPTION>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>B</NAME>
+          <DESCRIPTION>Varčen energijski razred</DESCRIPTION>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>A</NAME>
+          <DESCRIPTION>Zelo varčen energijski razred</DESCRIPTION>
+          <GROUP>GOOD</GROUP>
+        </SCALEVALUE>
+      </SCALE>
+      <OPTION>6</OPTION>
+      <OPTION>0</OPTION>
+      <OPTION>2</OPTION>
+      <OPTION>0</OPTION>
+      <OPTION>2</OPTION>
+    </ATTRIBUTE>
+    <ATTRIBUTE>
+      <NAME>Spletne ocene</NAME>
+      <DESCRIPTION>Mnenja kupcev po nakupu televizorja</DESCRIPTION>
+      <SCALE>
+        <SCALEVALUE>
+          <NAME>1</NAME>
+          <DESCRIPTION>Uporabnik ni bil zadovoljen z izdelkom</DESCRIPTION>
+          <GROUP>BAD</GROUP>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>2</NAME>
+          <DESCRIPTION>Uporabnik je bil manj zadovoljen z izdelkom</DESCRIPTION>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>3</NAME>
+          <DESCRIPTION>Uporabnik je bil delno zadovoljen z izdelkom</DESCRIPTION>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>4</NAME>
+          <DESCRIPTION>Uporabnik je bil zadovoljen z izdelkom</DESCRIPTION>
+        </SCALEVALUE>
+        <SCALEVALUE>
+          <NAME>5</NAME>
+          <DESCRIPTION>Uporabnik je bil zelo zadovoljen z izdelkom</DESCRIPTION>
+          <GROUP>GOOD</GROUP>
+        </SCALEVALUE>
+      </SCALE>
+      <FUNCTION>
+        <LOW>0012201222122232223422344</LOW>
+        <ENTERED>+-----------------------+</ENTERED>
+        <WEIGHTS>50;50</WEIGHTS>
+        <LOCWEIGHTS>50.00;50.00</LOCWEIGHTS>
+        <NORMLOCWEIGHTS>50.00;50.00</NORMLOCWEIGHTS>
+        <CONSIST>False</CONSIST>
+      </FUNCTION>
+      <OPTION>4</OPTION>
+      <OPTION>4</OPTION>
+      <OPTION>4</OPTION>
+      <OPTION>4</OPTION>
+      <OPTION>3</OPTION>
+      <ATTRIBUTE>
+        <NAME>Mimovrste</NAME>
+        <DESCRIPTION>Ocene kupcev izdelka preko ponudnika Mimovrste</DESCRIPTION>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>1</NAME>
+            <DESCRIPTION>Uporabnik ni bil zadovoljen z nakupom</DESCRIPTION>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>2</NAME>
+            <DESCRIPTION>Uporabnik je bil manj zadovoljen z nakupom</DESCRIPTION>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>3</NAME>
+            <DESCRIPTION>Uporabnik je bil delno zadovoljen za nakupom</DESCRIPTION>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>4</NAME>
+            <DESCRIPTION>Uporabnik je bil zadovoljen z nakupom</DESCRIPTION>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>5</NAME>
+            <DESCRIPTION>Uporabnik je bil zelo zadovoljen z nakupom</DESCRIPTION>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <OPTION>4</OPTION>
+        <OPTION>4</OPTION>
+        <OPTION>4</OPTION>
+        <OPTION>4</OPTION>
+        <OPTION>3</OPTION>
+      </ATTRIBUTE>
+      <ATTRIBUTE>
+        <NAME>Amazon</NAME>
+        <DESCRIPTION>Ocene kupcev izdelka preko ponudnika Amazon</DESCRIPTION>
+        <SCALE>
+          <SCALEVALUE>
+            <NAME>1</NAME>
+            <DESCRIPTION>Uporabnik ni bil zadovoljen z nakupom</DESCRIPTION>
+            <GROUP>BAD</GROUP>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>2</NAME>
+            <DESCRIPTION>Uporabnik je bil manj zadovoljen z nakupom</DESCRIPTION>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>3</NAME>
+            <DESCRIPTION>Uporabnik je bil delno zadovoljen z nakupom</DESCRIPTION>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>4</NAME>
+            <DESCRIPTION>Uporabnik je bil zadovoljen z nakupom</DESCRIPTION>
+          </SCALEVALUE>
+          <SCALEVALUE>
+            <NAME>5</NAME>
+            <DESCRIPTION>Uporabnik je bil zelo zadovoljen z nakupom</DESCRIPTION>
+            <GROUP>GOOD</GROUP>
+          </SCALEVALUE>
+        </SCALE>
+        <OPTION>4</OPTION>
+        <OPTION>3</OPTION>
+        <OPTION>3</OPTION>
+        <OPTION>4</OPTION>
+        <OPTION>3</OPTION>
+      </ATTRIBUTE>
+    </ATTRIBUTE>
+  </ATTRIBUTE>
+</DEXi>
