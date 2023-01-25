@@ -10,7 +10,7 @@ Avtor: Sašo Bobnar
 
 ## Model
 
-Pri spletni aplikaciji uporabljamo model izbira_televizorja, ki je bil ustvarjen v [programskem orodju DEXi](https://kt.ijs.si/MarkoBohanec/dexi.html). Model je dostopen v mapi [mvop_nakup_televizorja](https://github.com/saso89/mvop_nakup_televizorja). Podroben opis je napisan v obliki seminarske naloge in je dostopen v obliki [PDF datoteke](https://github.com/saso89/mvop_nakup_televizorja/blob/main/Seminarska_naloga_Bobnar.pdf).
+Pri spletni aplikaciji uporabljamo model izbira_televizorja, ki je bil ustvarjen v [programskem orodju DEXi](https://kt.ijs.si/MarkoBohanec/dexi.html). Model je dostopen na [povezavi](https://github.com/saso89/mvop_nakup_televizorja/blob/main/nakup_televizorja.dxi). Podroben opis je napisan v obliki seminarske naloge in je dostopen v obliki [PDF datoteke](https://github.com/saso89/mvop_nakup_televizorja/blob/main/Seminarska_naloga_Bobnar.pdf).
  
 ## Namestitev aplikacije
 
