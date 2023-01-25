@@ -14,7 +14,7 @@ Pri spletni aplikaciji uporabljamo model izbira_televizorja, ki je bil ustvarjen
  
 ## Namestitev aplikacije
 
-1. Kloniramo ali prenesemo repozitorij Ocena_Tankov_DEXpy.
+1. Kloniramo ali prenesemo repozitorij mvop_nakup_televizorja.
 2. Za uspešno uporabo potrebujemo [Python 3.11](https://www.python.org/downloads/release/python-3110/), [django 4.1.5](https://docs.djangoproject.com/en/4.1/topics/install/) ter po potrebi še dodatne knjižnice, na katere nas opozori ukazni poziv.
 3. V ukaznem pozivu (CMD) navigiramo do lokacije repozitorija (kjer se nahaja manage.py, to je v mapi Ocena_Tankov_DEXpy).
 4. Uporabimo ukaz `py manage.py runserver`.
