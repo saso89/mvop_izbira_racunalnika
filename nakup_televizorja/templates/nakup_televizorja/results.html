@@ -1,0 +1,41 @@
+{% load static %}
+<html>
+  <head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/theme/">
+    <link href="theme.css" rel="stylesheet">
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="../../dist/css/bootstrap-theme.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet">
+  </head>
+  
+  <body style="background-color: LemonChiffon">
+
+  <body>
+    <div class="container">
+      <div class="py-5 text-center" style="text-align:center">
+	  <button type="button" class="btn btn-lg btn-success"><h2>Ocena modela za vnesene vrednosti atributov televizorja</h2></button>
+      </div>
+      {% for key, value in quantitative_response.items %}
+        <div style="text-align:center">
+			<div class="form-group" style="margin: 5px 0px">
+			<span style="font-weight: bold; margin-right: 15px;">{{ key }}: </span>
+			<span>{{ value }}</span>
+			</div>
+		</div>
+      {% endfor %}
+    </div>
+	<br>
+  </body>
+</html>

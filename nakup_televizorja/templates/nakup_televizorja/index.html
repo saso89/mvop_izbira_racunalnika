@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/theme/">
+    <link href="theme.css" rel="stylesheet">
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="../../dist/css/bootstrap-theme.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="theme.css" rel="stylesheet">
+
+  </head>
+  
+  <body style="background-color: LemonChiffon">
+
+  <body>
+    <div class="container">
+      <div class="py-5 text-center" style="text-align:center">
+        <button type="button" class="btn btn-lg btn-success"><h2>DEX model za ocenjevanje izbranega televizorja</h2></button>
+        <p class="lead">Vnesite parametre televizorja, aplikacija pa vam bo vrnila oceno na podlagi zgrajenega modela DEX.</p>
+      </div>
+    <form action="../results/" method="post">
+      {% csrf_token %}
+      {% for field in form %}
+        <div class="form-group" style="margin: 15px">
+          <label for="{{ field.id_for_label }}" style="font-weight: bold"> {{ field.label }} </label>
+          <div style="font-size: 10px">{{ field.help_text }}</div>
+          <div style="margin-top: 5px">{{ field }}</div>
+        </div>
+      {% endfor %}                     
+	  <div style="text-align:center"><button type="submit" class="btn btn-lg btn-success">Oceni!</button></div>
+          </form>
+    </div>
+	<br>
+  </body>
+</html>
