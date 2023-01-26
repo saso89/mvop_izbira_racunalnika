@@ -3,11 +3,13 @@ Seminarska naloga pri predmetu Modeliranje večkriterijskih odločitvenih proces
 
 Avtor: Sašo Bobnar
 
+Profesorica: izr. prof. dr. Biljana Mileva Boshkoska
+
 [Fakulteta za informacijske študije v Novem mestu](https://www.fis.unm.si/).
 
-Študijski program: Računalništvo in spletne tehnologije, 2. stopnja.
+Študijski program: Računalništvo in spletne tehnologije, 2. stopnja
 
-Študijsko leto 2022/2023.
+Študijsko leto 2022/2023
 
 ## Model
 
