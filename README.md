@@ -1,5 +1,6 @@
 # Izdelava odločitvenega modela DEX za izbiro televizorja
 Seminarska naloga pri predmetu Modeliranje večkriterijskih odločitvenih procesov
+
 Avtor: Sašo Bobnar
 
 [Fakulteta za informacijske študije v Novem mestu](https://www.fis.unm.si/).
