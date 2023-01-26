@@ -16,7 +16,7 @@ Pri spletni aplikaciji uporabljamo model izbira_televizorja, ki je bil ustvarjen
 
 1. Kloniramo ali prenesemo repozitorij mvop_nakup_televizorja.
 2. Za uspešno uporabo potrebujemo [Python 3.11](https://www.python.org/downloads/release/python-3110/), [django 4.1.5](https://docs.djangoproject.com/en/4.1/topics/install/) ter po potrebi še dodatne knjižnice, na katere nas opozori ukazni poziv.
-3. V ukaznem pozivu (CMD) navigiramo do lokacije repozitorija (kjer se nahaja manage.py, to je v mapi Ocena_Tankov_DEXpy).
+3. V ukaznem pozivu (CMD) navigiramo do lokacije repozitorija (kjer se nahaja manage.py, to je v mapi mvop).
 4. Uporabimo ukaz `py manage.py runserver`.
-5. Ko se strežnik zažene, v poljubnem brskalniku v naslovno vrstico vpišemo naslov `https://127.0.0.1:8000/ocena/main`. Delovanje aplikacije je bilo testirano na brskalniku Google Chrome (različica 109.0.5414.74).
-6. Naslov `https://127.0.0.1:8000/ocena/main` vsebuje obrazec na podlagi katere se potem oceni model, naslov `https://127.0.0.1:8000/ocena/final` pa vsebuje rezultate, ki temeljijo na vhodnih parametrih, ki jih vnesemo na naslovu, ki vsebuje obrazec.
+5. Ko se strežnik zažene, v poljubnem brskalniku v naslovno vrstico vpišemo naslov `https://127.0.0.1:8000/nakup_televizorja/index`. Delovanje aplikacije je bilo testirano na brskalniku Google Chrome (različica 109.0.5414.119).
+6. Naslov `https://127.0.0.1:8000/nakup_televizorja/index` vsebuje obrazec za oceno modela televizorja na podlagi DEX modela, medtem ko naslov `https://127.0.0.1:8000/nakup_televizorja/results` vsebuje rezultate našega ocenjevanja.
